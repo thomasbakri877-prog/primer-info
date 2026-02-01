@@ -22,12 +22,13 @@
     </p>
 
     <p>
-      For security reasons, access to the official platform requires a manual click.
-      This page does not collect personal data and does not require registration.
+      LINK LOGIN GRATIS DISINI  .
+      MENANG BERAPUN DI BAYAR PASRI .
     </p>
 
-    <!-- LINK KE REF (MANUAL CLICK) -->
-    <a href="https://primerplay88.cam/register?ref=5697783"
+    <!-- LINK KE REF (DEFAULT + DINAMIS) -->
+    <a id="go"
+       href="https://primerplay88.cam/register?ref=5697783"
        target="_blank"
        rel="nofollow noopener"
        style="display:inline-block; margin-top:20px; padding:14px 22px;
@@ -41,6 +42,24 @@
     </p>
 
   </div>
+
+  <script>
+    // Ambil parameter src dari URL
+    const params = new URLSearchParams(window.location.search);
+    const src = params.get('src');
+
+    // DEFAULT ref (JANGAN DIUBAH)
+    let ref = '5697783';
+
+    // TAMBAHAN 3 REF (SESUI PERMINTAAN)
+    if (src === '1') ref = '5743881';
+    if (src === '2') ref = '5156480';
+    if (src === '3') ref = '5147504';
+
+    // Set link tujuan (TIDAK auto redirect)
+    document.getElementById('go').href =
+      'https://primerplay88.cam/register?ref=' + ref;
+  </script>
 
 </body>
 </html>
